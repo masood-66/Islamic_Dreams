@@ -1,0 +1,404 @@
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+
+
+@media screen and (min-width: 1360px) and (max-width: 1660px) {
+.banner {
+    padding-top: 65px;
+    padding-bottom: 80px;
+}
+
+.banner-wrapper {
+    right: 50px;
+}
+
+.p22para-wrapper {
+    padding-left: 200px
+}
+
+.p2para::after {
+    width: 350px;
+    height: 750px;
+}
+
+.banner-bg {
+    background-size: 99% 400px;
+}
+
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1360px) {
+.banner-wrapper {
+    max-width: 310px;
+}
+
+.banner-wrapper p {
+    font-size: 28px;
+}
+
+.banner {
+    padding-top: 160px;
+    padding-bottom: 30px;
+}
+
+.banner-bg {
+    background-size: 100% 335px;
+}
+
+.p2para::after {
+    width: 200px;
+    height: 400px;
+}
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+.banner-wrapper {
+    max-width: 310px;
+}
+
+.banner-wrapper p {
+    font-size: 28px;
+}
+
+.banner {
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.banner-bg {
+    background-size: 100% 335px;
+}
+
+.banner-wrapper {
+    max-width: 310px;
+    right: 15px;
+}
+
+.p2para::after {
+    width: 200px;
+    height: 400px;
+}
+
+.footer-wrapper p {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+
+.menu-wrapper ul li a {
+    font-size: 20px;
+}
+
+.menu-wrapper ul li a::after {
+    height: 5px;
+}
+
+
+.banner-wrapper {
+    max-width: 310px;
+    right: 15px;
+}
+
+.banner-wrapper p {
+    font-size: 28px;
+}
+
+.banner {
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.banner-bg {
+    background-size: 100% 335px;
+}
+
+.p2para::after {
+    width: 200px;
+    height: 400px;
+}
+
+.footer-wrapper p small {
+    width: 50px;
+}
+
+.footer-wrapper p {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+@media screen and (min-width: 576px) and (max-width: 767px) {	
+
+.language-wrapper {
+    padding-right: 0px;
+}
+
+.banner-wrapper {
+	margin: auto;
+	position: inherit;
+}
+
+.banner-wrapper p {
+    font-size: 30px;
+}
+
+.banner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-size: cover;
+}
+
+.serach-wrapper input {
+    font-size: 20px;
+}
+
+.serach-wrapper {
+    padding-left: 18px;
+}
+
+.serach-wrapper::after {
+    height: 54%;
+    left: 25px;
+    top: 13px;
+}
+
+.serach-wrapper button img {
+    width: 22px;
+}
+
+.ref-content-list-one ul li {
+    font-family: "myriad-arabic";
+    font-size: 26px
+}
+
+.ref {
+    margin-top: 50px;
+}
+
+.ref-content h2 {
+    font-size: 60px;
+}
+
+.banner-bg {
+    background-size: 100% 160px;
+    padding-bottom: 60px;
+}
+
+.footer {
+	height: 60px;
+}
+
+.p2para:after {
+	content: none;
+}
+
+.p22para-wrapper {
+    padding-left: 0px;
+}
+
+.p3ref-content {
+    margin-top: 95px;
+}
+
+.footer-wrapper p small {
+    width: 70px;
+}
+
+.footer-wrapper p {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+@media screen and (max-width: 576px) {
+
+
+
+
+
+
+.language-wrapper {
+    padding-right: 0px;
+}
+
+.banner-wrapper {
+	margin: auto;
+	position: inherit;
+}
+
+.banner-wrapper p {
+    font-size: 30px;
+}
+
+.banner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-size: cover;
+}
+
+.serach-wrapper input {
+    font-size: 20px;
+}
+
+.serach-wrapper {
+    padding-left: 18px;
+}
+
+.serach-wrapper::after {
+    height: 54%;
+    left: 25px;
+    top: 13px;
+}
+
+.serach-wrapper button img {
+    width: 22px;
+}
+
+.ref-content-list-one ul li {
+    font-family: "myriad-arabic";
+    font-size: 26px
+}
+
+.ref {
+    margin-top: 50px;
+}
+
+.ref-content h2 {
+    font-size: 60px;
+}
+
+.banner-bg {
+    background-size: 100% 160px;
+    padding-bottom: 60px;
+}
+
+.footer {
+	height: 60px;
+}
+
+.p2para:after {
+	content: none;
+}
+
+.p22para-wrapper {
+    padding-left: 0px;
+}
+
+.p3ref-content {
+    margin-top: 95px;
+}
+
+.footer-wrapper p small {
+    margin-left: 0;
+    width: 110px;
+}
+
+.footer-wrapper p {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

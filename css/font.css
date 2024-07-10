@@ -1,0 +1,19 @@
+
+@font-face {
+  font-family: 'JameelNooriNastaleeqKasheeda';
+  src: url('../font/JameelNooriNastaleeqKasheeda.svg#JameelNooriNastaleeqKasheeda') format('svg'),
+       url('../font/JameelNooriNastaleeqKasheeda.ttf') format('truetype'),
+       url('../font/JameelNooriNastaleeqKasheeda.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Jameel Noori Nastaleeq Regular';
+  src: url('../font/Jameel%20Noori%20Nastaleeq%20Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
