@@ -281,7 +281,7 @@ ul {
   
 	width: fit-content;
 	display: flex;
-	justify-content: center;
+	justify-content: flex-end;
 	position: relative;
 	border-radius: 9999px;
 	cursor: pointer;
@@ -290,9 +290,7 @@ ul {
 	position: relative;
 	isolation: isolate;
 	border: 1.5px solid var(--_slider-bg-clr);
-	margin-left: 37px;
-	  
-  }
+}
   
   .switch input[type="checkbox"] {
 	position: absolute;
@@ -389,9 +387,9 @@ ul {
 		background: transparent;
 		color: #fff;
 		font-family: 'Oswald', sans-serif;
-		font-size: 34px;
+		font-size: 24px;
 		text-transform: uppercase;
-		padding-left: 30px;
+		padding-right: 15px;
 	}
 
 		.serach-wrapper input::placeholder {
@@ -462,9 +460,9 @@ ul {
 		background: transparent;
 		color: #fff;
 		font-family: 'Oswald', sans-serif;
-		font-size: 34px;
+		font-size: 24px;
 		text-transform: uppercase;
-		padding-right: 30px;
+		padding-left: 15px;
 	}
 
 		.serach-wrapper-urdu input::placeholder {

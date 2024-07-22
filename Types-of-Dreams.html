@@ -189,7 +189,7 @@ function __doPostBack(eventTarget, eventArgument) {
 
 		<!-- sm-menu area start -->
 		<div class="sm-menu d-bloc d-md-none">
-			<div class="container">
+			<div class="container-fluid">
 				<div class="sm-menu-wrapper">
 					<span></span>
 					<span></span>
@@ -197,7 +197,14 @@ function __doPostBack(eventTarget, eventArgument) {
 				</div>
 				<div class="menu-wrapper">
 					<ul>
-						<li ><a  style="font-family: 'JameelNooriNastaleeqKasheeda';font-weight: 600;" href="About-Us-2.html">ہمیں جانیں<span>|</span> </a></li>
+						<li class="float-left">
+                            <label for="filter" class="switch" aria-label="Toggle Filter">
+                                <input type="checkbox" id="filter">
+                                <span onclick="window.location.href = 'english.html'">ENG</span>
+                                <span onclick="window.location.href = 'english.html'">اردو</span>
+                              </label>
+                        </li>
+						<li ><a  style="font-family: 'JameelNooriNastaleeqKasheeda';font-weight: 600;" href="#">ہمیں جانیں<span>|</span> </a></li>
 						<li ><a  style="font-family: 'JameelNooriNastaleeqKasheeda';font-weight: 600;" href="#" class="subnav">زیارات<span>|</span></a>
 							<ul dir="rtl" style="text-align: right">
 								<li><a  style="font-family: 'JameelNooriNastaleeqKasheeda';font-weight: 600;" href="Seeing-Allah-in-Dream.html">اللہ تعالیٰ کو دیکھنا</a></li>
@@ -206,9 +213,9 @@ function __doPostBack(eventTarget, eventArgument) {
 								<li><a  style="font-family: 'JameelNooriNastaleeqKasheeda';font-weight: 600;" href="Seeing-Khulefa-in-Dreams.html">خلفائے راشدین کو دیکھنا</a></li>
 							</ul>
 						</li>
-						<li><a  style="font-family: 'JameelNooriNastaleeqKasheeda';font-weight: 600;" href="Dream-Interpretation.html">علم تعبیر<span>|</span> </a></li>
-						<li><a  style="font-family: 'JameelNooriNastaleeqKasheeda';font-weight: 600;" href="Types-of-Dreams.html">خوابوں کی اقسام<span>|</span></a></li>
-						<li><a  style="font-family: 'JameelNooriNastaleeqKasheeda';font-weight: 600;" href="index.html">مرکزی صفحہ</a></li>
+						<li><a  style="font-family: 'JameelNooriNastaleeqKasheeda';font-weight: 600;" href="#">علم تعبیر<span>|</span> </a></li>
+						<li><a  style="font-family: 'JameelNooriNastaleeqKasheeda';font-weight: 600; " active href="Types-of-Dreams.html">خوابوں کی اقسام<span>|</span></a></li>
+						<li><a  style="font-family: 'JameelNooriNastaleeqKasheeda';font-weight: 600;" href="Urdu.html">مرکزی صفحہ</a></li>
 					</ul>
 				</div>
 			</div>
@@ -228,18 +235,17 @@ function __doPostBack(eventTarget, eventArgument) {
 		<div class="banner-bg">
 			<!-- search area start -->
 			<div class="search">
-				<div class="container">
-					<div class="ser-sug">
-						<div class="serach-wrapper-urdu" style="width: 100%">
+                <div class="container">
+                    <div class="ser-sug">
+                        <div class="serach-wrapper" style="width: 100%">
 
-							<button onclick="__doPostBack('ctl00$btnSearch','')" id="btnSearch">
-								<img src="img/ser.png" alt="images not found" /></button>
-							<input name="ctl00$tags" type="text" id="tags" style="text-align: right; direction: rtl;" placeholder="تلاش کریں" />
-						</div>
-						
-					</div>
-				</div>
-			</div>
+                            <input name="ctl00$tags" type="text" id="tags"  style="text-align: right; direction: rtl; " placeholder="تلاش کریں" />
+                            <button onclick="__doPostBack('ctl00$btnSearch','')" id="btnSearch">
+                                <img src="img/ser.png" alt="images not found" /></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
 			
 	<!-- ref area start -->
 	<div class="ref" style="margin-top: 14px;">

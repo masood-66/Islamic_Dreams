@@ -169,7 +169,7 @@ function __doPostBack(eventTarget, eventArgument) {
 
         <!-- menu area start -->
         <div class="menu d-none d-md-block">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="menu-wrapper text-center">
                     <ul>
                         <li><a class="active" href="index.html">Home<span>|</span></a></li>
@@ -184,11 +184,11 @@ function __doPostBack(eventTarget, eventArgument) {
                             </ul>
                         </li>
                         <li><a href="About-us.html">About us</a></li>
-                        <li>
+                        <li class="float-right">
                             <label for="filter" class="switch" aria-label="Toggle Filter">
                                 <input type="checkbox" id="filter">
-                                <span>ENG</span>
-                                <span>URDU</span>
+                                <span onclick="window.location.href = 'english.html'">ENG</span>
+                                <span onclick="window.location.href = 'urdu.html'">URDU</span>
                               </label>
                         </li>
                     </ul>

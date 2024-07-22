@@ -4,8 +4,6 @@
 
 <html>
 
-<!-- Mirrored from 110.93.246.114/Urdu by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 09 Jul 2024 06:02:15 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
 	<!-- Meta setup -->
 	<meta charset="UTF-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /><meta name="keywords" /><meta name="decription" /><meta name="author" content="Mahmudul Hasan" /><title>
@@ -168,12 +166,18 @@ function __doPostBack(eventTarget, eventArgument) {
 
 		<!-- menu area start -->
 		<div class="menu d-none d-md-block">
-			<div class="container">
+			<div class="container-fluid">
 				<div class="menu-wrapper text-center">
 					<ul>
 
 
-
+						<li class="float-left">
+                            <label for="filter" class="switch" aria-label="Toggle Filter">
+                                <input type="checkbox" id="filter">
+                                <span onclick="window.location.href = 'english.html'">ENG</span>
+                                <span onclick="window.location.href = 'english.html'">اردو</span>
+                              </label>
+                        </li>
 						<li><a  style="font-family: 'JameelNooriNastaleeqKasheeda';font-weight: 600;" href="About-Us-2.html">ہمیں جانیں<span>|</span> </a></li>
 						<li><a  style="font-family: 'JameelNooriNastaleeqKasheeda';font-weight: 600;" href="#" class="subnav">زیارات<span>|</span></a>
 							<ul dir="rtl" style="text-align: right">
@@ -202,7 +206,7 @@ function __doPostBack(eventTarget, eventArgument) {
 				</div>
 				<div class="menu-wrapper">
 					<ul>
-						<li ><a  style="font-family: 'JameelNooriNastaleeqKasheeda';font-weight: 600;" href="About-Us-2.html">ہمیں جانیں<span>|</span> </a></li>
+						<li ><a  style="font-family: 'JameelNooriNastaleeqKasheeda';font-weight: 600;" href="#">ہمیں جانیں<span>|</span> </a></li>
 						<li ><a  style="font-family: 'JameelNooriNastaleeqKasheeda';font-weight: 600;" href="#" class="subnav">زیارات<span>|</span></a>
 							<ul dir="rtl" style="text-align: right">
 								<li><a  style="font-family: 'JameelNooriNastaleeqKasheeda';font-weight: 600;" href="Seeing-Allah-in-Dream.html">اللہ تعالیٰ کو دیکھنا</a></li>
@@ -233,18 +237,17 @@ function __doPostBack(eventTarget, eventArgument) {
 		<div class="banner-bg">
 			<!-- search area start -->
 			<div class="search">
-				<div class="container">
-					<div class="ser-sug">
-						<div class="serach-wrapper-urdu" style="width: 100%">
+                <div class="container">
+                    <div class="ser-sug">
+                        <div class="serach-wrapper" style="width: 100%">
 
-							<button onclick="__doPostBack('ctl00$btnSearch','')" id="btnSearch">
-								<img src="img/ser.png" alt="images not found" /></button>
-							<input name="ctl00$tags" type="text" id="tags" style="text-align: right; direction: rtl; " placeholder="تلاش کریں" />
-						</div>
-						
-					</div>
-				</div>
-			</div>
+                            <input name="ctl00$tags" type="text" id="tags"  style="text-align: right; direction: rtl; " placeholder="تلاش کریں" />
+                            <button onclick="__doPostBack('ctl00$btnSearch','')" id="btnSearch">
+                                <img src="img/ser.png" alt="images not found" /></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
 			
 
 	<!-- search area end -->
