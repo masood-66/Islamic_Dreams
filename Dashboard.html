@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <title>
+        Dreams in Islam
+    </title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui" />
+    <meta content="Responsive admin theme build on top of Bootstrap 4" name="description" />
+    <meta content="Themesbrand" name="author" />
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+
+    <!-- datepicker -->
+    <link href="plugins/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css" rel="stylesheet" />
+    <!-- DataTables -->
+    <link href="plugins/datatables/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+    <link href="plugins/datatables/buttons.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+    <!-- Responsive datatable examples -->
+    <link href="plugins/datatables/responsive.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/icons.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript" src='http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.3.min.js'></script>
+
+
+    <style type="text/css">
+        @font-face {
+            font-family: jameel-noori-nastaleeq;
+            src: url("font/JameelNooriNastaleeq.ttf") format("woff"), url("font/JameelNooriNastaleeq.ttf") format("opentype"), url("font/JameelNooriNastaleeq.ttf") format("truetype");
+        }
+
+        .body {
+            font-family: "jameel-noori-nastaleeq";
+            font-size: 12px;
+        }
+
+        .subnav:hover .submenu {
+            display: block;
+        }
+    </style>
+    <style>
+        table.dataTable>tbody>td.child ul {
+            display: inline-block;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: right;
+            white-space: pre-wrap;
+        }
+
+        .form-control {
+            font-family: jameel-noori-nastaleeq;
+            font-size: 16px;
+        }
+
+        th {
+            font-size: 16.5px;
+            white-space: pre-wrap;
+            font-weight: bold;
+        }
+
+        table,
+        td {
+            font-family: jameel-noori-nastaleeq;
+            font-size: 15.5px;
+            white-space: pre-wrap;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <form method="post" action="./Dashboard" id="form1">
+        <div class="aspNetHidden">
+            <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+            <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+            <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="ZxTtSy2Iyte28QOWXA/XHvdXexnqcQY1y7l96WZO9X8N76j0FR78Ff4xrgDYaaLJl66+AscMhFPrlp+DeWc1c2a6g9IYhjIEYLjGwh/q4k5kAlzc+qjgsqoy6LvNi+q6VTfNFy7fmzBaUMzzNtQ2eA==" />
+        </div>
+
+        <script type="text/javascript">
+            //<![CDATA[
+            var theForm = document.forms['form1'];
+            if (!theForm) {
+                theForm = document.form1;
+            }
+
+            function __doPostBack(eventTarget, eventArgument) {
+                if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+                    theForm.__EVENTTARGET.value = eventTarget;
+                    theForm.__EVENTARGUMENT.value = eventArgument;
+                    theForm.submit();
+                }
+            }
+            //]]>
+        </script>
+
+
+        <script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZGK3hHt1ahkTHDHdASZ6Xdqz8l4jpIIARKnnAUKkuInyNcEZvD43KcqIEqHq2NdGTA2&amp;t=638460004569584809" type="text/javascript"></script>
+
+
+        <script src="/ScriptResource.axd?d=NJmAwtEo3Ipnlaxl6CMhvh8mIcLOeAAqUDBYOCJ_-8qtAYibz-0zjYe0X1xtG_H-fbJ5H0D-vUvjxkELAqf_uGllgkX9o4WWpfXQ0h31p9_CpTNBxOgygZNr86S20L_E6mWwYmFbBp5C5ae9IXkZuGvNrNroXL8NJx6JbxX_mNs1&amp;t=74258c30" type="text/javascript"></script>
+        <script src="/ScriptResource.axd?d=dwY9oWetJoJoVpgL6Zq8OKU-3id_p_anSFR5lXBZKvzAUgQS8spmukMNasysKVs_qhATCl2Wg3Gfiybi9Rur5lHfXkUSxyUEZUrWa8-5OBFLi63NPgRiHbYKdPzzkxq07YcSTB6VTFVcptesAaK1_jQdi1l7z5_oi7FHc8SBehs1&amp;t=74258c30" type="text/javascript"></script>
+        <script src="assets/js/jquery.min.js" type="text/javascript"></script>
+        <script src="assets/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+        <script src="assets/js/jquery.slimscroll.js" type="text/javascript"></script>
+        <script src="assets/js/waves.min.js" type="text/javascript"></script>
+        <script src="plugins/datatables/jquery.dataTables.min.js" type="text/javascript"></script>
+        <script src="plugins/datatables/dataTables.bootstrap4.min.js" type="text/javascript"></script>
+        <script src="plugins/datatables/dataTables.buttons.min.js" type="text/javascript"></script>
+        <script src="plugins/datatables/dataTables.responsive.min.js" type="text/javascript"></script>
+        <script src="plugins/datatables/responsive.bootstrap4.min.js" type="text/javascript"></script>
+        <script src="assets/pages/datatables.init.js" type="text/javascript"></script>
+        <script src="assets/js/app.js" type="text/javascript"></script>
+        <div class="aspNetHidden">
+
+            <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="B543B226" />
+            <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="LHjwPZ6uYvq9EYc8vnqpETFw15ecA6NNJtPaX6ifM62Yg7auYBPbzVQxE8zHElkVF+W06GygsKHHouRQWJeHh5kJLS1jmrQ9yI2tX06D/woFqUFF0WtO2N3hK+tk8BJ9" />
+        </div>
+        <div class="header-bg">
+            <!-- Navigation Bar-->
+            <header id="topnav">
+                <div class="topbar-main">
+                    <div class="container-fluid">
+
+                        <!-- Logo container-->
+                        <div class="logo">
+                            <a href="Dashboard" class="logo">
+								<img src="assets/images/favicon.png" height="50" alt="" class="logo-small">
+								<img src="assets/images/favicon.png" height="50" alt="" class="logo-large">
+							</a>
+                        </div>
+                        <!-- End Logo container-->
+
+                        <div class="menu-extras topbar-custom">
+
+                            <ul class="navbar-right list-inline float-right mb-0">
+
+
+
+
+                                <!-- full screen -->
+                                <li class="dropdown notification-list list-inline-item d-none d-md-inline-block">
+                                    <a class="nav-link" href="#" id="btn-fullscreen">
+										<i class="ion ion-md-qr-scanner noti-icon"></i>
+									</a>
+                                </li>
+
+                                <li class="dropdown notification-list list-inline-item">
+                                    <div class="dropdown notification-list nav-pro-img">
+
+                                        <button onclick="__doPostBack('ctl00$ctl15','')" class="dropdown-item text-danger"><i class="mdi mdi-power text-danger" ></i>Sign out</button>
+                                    </div>
+                                </li>
+
+                                <li class="menu-item list-inline-item">
+                                    <!-- Mobile menu toggle-->
+                                    <a class="navbar-toggle nav-link">
+                                        <div class="lines">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </a>
+                                    <!-- End mobile menu toggle-->
+                                </li>
+
+                            </ul>
+                        </div>
+                        <!-- end menu-extras -->
+                        <div class="clearfix"></div>
+                    </div>
+                    <!-- end container -->
+                </div>
+                <!-- end topbar-main -->
+
+                <!-- MENU Start -->
+                <div class="navbar-custom">
+                    <div class="container-fluid">
+
+                        <div id="navigation">
+                            <!-- Navigation Menu-->
+                            <ul class="navigation-menu">
+
+                                <li class="has-submenu">
+                                    <a href="Dashboard"><i class="ion ion-md-speedometer"></i>Dashboard</a>
+                                </li>
+                                <li class="has-submenu">
+                                    <a href="Books"><i class="ion ion-md-book"></i>Reference Books </a>
+                                </li>
+                                <li class="has-submenu">
+                                    <a href="KeyWords"><i class="ion ion-md-keypad"></i>Keywords</a>
+                                </li>
+                                <li class="has-submenu">
+                                    <a href="Imam"><i class="ion ion-md-keypad"></i>Imam</a>
+                                </li>
+                                <li class="has-submenu">
+                                    <a href="Catalogue"><i class="ion ion-md-cloud-outline"></i>Catalogue</a>
+                                </li>
+                                <li class="has-submenu">
+                                    <a href="SearchIndex"><i class="ion ion-md-cloud-outline"></i>Index</a>
+                                </li>
+
+
+
+                            </ul>
+                            <!-- End navigation menu -->
+                        </div>
+                        <!-- end #navigation -->
+
+                    </div>
+                    <!-- end container -->
+                </div>
+                <!-- end navbar-custom -->
+            </header>
+            <!-- End Navigation Bar-->
+            <!-- End Navigation Bar-->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="page-title-box">
+                            <div class="row align-items-center">
+                                <div class="col-sm-12">
+                                    <h4 class="page-title text-center" style="color: #f2b300; font-size: x-large;">
+                                        <span id="pageTitle">Dashboard</span>
+                                    </h4>
+
+                                </div>
+
+                            </div>
+                            <!-- end col-->
+                        </div>
+                        <!-- end row-->
+                    </div>
+                    <!-- end page title -->
+                </div>
+                <!-- end col -->
+            </div>
+        </div>
+        <!-- end header-bg -->
+        <!-- page wrapper start -->
+        <div class="wrapper">
+            <div class="container-fluid">
+                <script type="text/javascript">
+                    //<![CDATA[
+                    Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'form1', ['tctl00$UpdatePanelWebsiteHeader', 'UpdatePanelWebsiteHeader'], [], [], 90, 'ctl00');
+                    //]]>
+                </script>
+
+                <div id="UpdatePanelWebsiteHeader">
+
+
+
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="card mini-stat bg-pattern">
+                                <div class="card-body mini-stat-img">
+                                    <div class="mini-stat-icon">
+                                        <i class="dripicons-broadcast bg-soft-primary text-primary float-right h4"></i>
+                                    </div>
+                                    <h6 class="text-uppercase mb-3 mt-0">Keywords</h6>
+                                    <h5 class="mb-3">1,687</h5>
+                                    <p class="text-muted mb-0"><span class="text-success mr-2">12% <i class="mdi mdi-arrow-up"></i></span>From previous period</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card mini-stat bg-pattern">
+                                <div class="card-body mini-stat-img">
+                                    <div class="mini-stat-icon">
+                                        <i class="dripicons-box bg-soft-primary text-primary float-right h4"></i>
+                                    </div>
+                                    <h6 class="text-uppercase mb-3 mt-0">Visitors</h6>
+                                    <h5 class="mb-3">48,265</h5>
+                                    <p class="text-muted mb-0"><span class="text-danger mr-2">-26% <i class="mdi mdi-arrow-down"></i></span>From previous period</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card mini-stat bg-pattern">
+                                <div class="card-body mini-stat-img">
+                                    <div class="mini-stat-icon">
+                                        <i class="dripicons-tags bg-soft-primary text-primary float-right h4"></i>
+                                    </div>
+                                    <h6 class="text-uppercase mb-3 mt-0">Average</h6>
+                                    <h5 class="mb-3">$ 14.6</h5>
+                                    <p class="text-muted mb-0"><span class="text-danger mr-2">-26% <i class="mdi mdi-arrow-down"></i></span>From previous period</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end row -->
+
+                    <div class="row">
+                        <div class="col-xl-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="mt-0 header-title mb-4">Weekly Trend</h4>
+
+                                    <div id="area-chart" dir="ltr"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-8">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="mt-0 header-title mb-4">Monthly Trend</h4>
+
+                                    <div id="column-chart" dir="ltr"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end row -->
+                    <!-- apexcharts -->
+                    <script src="plugins/apexcharts/apexcharts.min.js"></script>
+
+                    <!-- Peity JS -->
+                    <script src="plugins/peity-chart/jquery.peity.min.js"></script>
+
+                    <script src="assets/pages/dashboard.js"></script>
+
+
+
+                </div>
+            </div>
+            <!-- end container-fluid -->
+        </div>
+        <!-- page wrapper end -->
+        <!-- Footer -->
+
+        <footer class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        2024 © Dreams in Islam <span class="d-none d-sm-inline-block"> <i class="mdi mdi-heart text-danger"></i></span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+
+
+        <!-- End Footer -->
+    </form>
+    <!-- jQuery  -->
+
+
+
+</body>
+
+</html>

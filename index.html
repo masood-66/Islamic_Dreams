@@ -155,13 +155,13 @@ function __doPostBack(eventTarget, eventArgument) {
         <div class="language">
             <div class="container-fluid text-center">
                 <img src="img/logo.png" class="img-fluid" height="" style="align-items: center; height: 64px;">
-                <!-- <div class="language-wrapper text-right" >
+                <div class="language-wrapper text-right" >
                     <ul>
 
                         <li style="background: #cb9d63;"><a style="color: whitesmoke;" href="English/index.html">ENG  </a></li>
                         <li><a style="color: whitesmoke" href="Urdu.html">اردو</a></li>
 
-                    </ul> -->
+                    </ul>
                 </div>
             </div>
         </div>
@@ -184,6 +184,13 @@ function __doPostBack(eventTarget, eventArgument) {
                             </ul>
                         </li>
                         <li><a href="About-us.html">About us</a></li>
+                        <li>
+                            <label for="filter" class="switch" aria-label="Toggle Filter">
+                                <input type="checkbox" id="filter">
+                                <span>ENG</span>
+                                <span>URDU</span>
+                              </label>
+                        </li>
                      <!-- <ul>
                         <li style="background: #cb9d63;"><a style="color: whitesmoke;" href="English/index.html">ENG  </a></li>
                         <li><a style="color: whitesmoke" href="Urdu.html">اردو</a></li>
@@ -248,9 +255,11 @@ function __doPostBack(eventTarget, eventArgument) {
                     <div class="ser-sug">
                         <div class="serach-wrapper" style="width: 100%">
 
+                           <form action="">
                             <input name="ctl00$tags" type="text" id="tags"  placeholder="Search"/>
                             <button onclick="__doPostBack('ctl00$btnSearch','')" id="btnSearch">
                                 <img src="img/ser.png" alt="images not found" /></button>
+                           </form>
                         </div>
                     </div>
                 </div>
