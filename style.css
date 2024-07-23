@@ -224,7 +224,8 @@ ul {
 	margin-left: auto;
 	text-align: center;
 	position: relative;
-	right: 100px;
+	right: 60px;
+	top: -80px;
 	height: 130px;
 }
 
@@ -248,7 +249,7 @@ ul {
 	}
 
 .banner {
-	background-image: url(img/image3.jpg);
+	background-image: url(img/image-bg.jpg);
 	background-repeat: no-repeat;
 	background-position: bottom right;
 	background-size: 100% 100%;
