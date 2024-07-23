@@ -120,7 +120,7 @@ ul {
 	display: inline-block;
 }
 
-	.menu-wrapper ul li a {
+	.menu-wrapper ul li > a {
 		display: inline-block;
 		color: #fff;
 		font-family: 'Oswald', sans-serif;
@@ -133,7 +133,7 @@ ul {
 		-moz-transition: all .2s ease;
 	}
 
-	.menu-wrapper ul li:last-child a {
+	.menu-wrapper ul li:last-child > a {
 		padding-right: 35px;
 	}
 
@@ -160,27 +160,27 @@ ul {
 		display: block;
 	}
 
-		.menu-wrapper ul li ul li a {
+		.menu-wrapper ul li ul li > a {
 			margin-left: 0;
 			padding-left: 0;
 			margin-top: 10px;
 		}
 
-		.menu-wrapper ul li ul li:last-child a {
+		.menu-wrapper ul li ul li:last-child > a {
 			padding-right: 0;
 		}
 
-		.menu-wrapper ul li ul li a::after {
+		.menu-wrapper ul li ul li > a::after {
 			height: 3px;
 			bottom: -4px;
 		}
 
-	.menu-wrapper ul li a span {
+	.menu-wrapper ul li > a span {
 		display: inline-block;
 		padding-left: 35px;
 	}
 
-	.menu-wrapper ul li a:after {
+	.menu-wrapper ul li > a:after {
 		content: "";
 		display: block;
 		width: 0%;
@@ -194,11 +194,11 @@ ul {
 		-moz-transition: all .2s ease;
 	}
 
-	.menu-wrapper ul li a:hover:after {
+	.menu-wrapper ul li > a:hover:after {
 		width: 100%;
 	}
 
-	.menu-wrapper ul li a.active:after {
+	.menu-wrapper ul li > a.active:after {
 		width: 100%;
 	}
 
@@ -304,12 +304,15 @@ ul {
 	white-space: nowrap;
 	border-width: 0;
   }
-  .switch > span {
+  .switch > a span {
 	display: grid;
 	color: whitesmoke;
 	place-content: center;
 	transition: opacity 300ms ease-in-out 150ms;
 	padding: var(--_label-padding);
+  }
+  .switch > a{
+	text-decoration: none;
   }
   .switch::before,
   .switch::after {
