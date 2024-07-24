@@ -391,7 +391,7 @@ ul {
 		background: transparent;
 		color: #fff;
 		font-family: 'Oswald', sans-serif;
-		font-size: 24px;
+		font-size: 20px;
 		text-transform: uppercase;
 		padding-right: 15px;
 	}
@@ -407,7 +407,7 @@ ul {
 		outline: none;
 		background: #293A53;
 		border-radius: 0px 36px 36px 0;
-		padding: 13px 26px;
+		padding: 8px 26px;
 		transition: all .2s ease;
 		-webkit-transition: all .2s ease;
 		-moz-transition: all .2s ease;
@@ -464,7 +464,7 @@ ul {
 		background: transparent;
 		color: #fff;
 		font-family: 'Oswald', sans-serif;
-		font-size: 24px;
+		font-size: 18px;
 		text-transform: uppercase;
 		padding-left: 15px;
 	}
@@ -480,7 +480,7 @@ ul {
 		outline: none;
 		background: #293A53;
 		border-radius: 36px 0px 0px 36px;
-		padding: 13px 26px;
+		padding: 8px 26px;
 		transition: all .2s ease;
 		-webkit-transition: all .2s ease;
 		-moz-transition: all .2s ease;
@@ -496,7 +496,7 @@ ul {
 		}
 
 .banner-bg {
-	padding: 25px 0 45px 0;
+	padding: 18px 0 45px 0;
 	padding-bottom: 120px;
 }
 
@@ -509,10 +509,11 @@ ul {
 
 .ref-content h2 {
 	font-family: "jameel-noori-nastaleeq";
-	font-size: 70px;
+	font-size: 36px;
 	margin-bottom: 0;
 	color: #dcac6e;
 	line-height: 1;
+	text-shadow: none;
 }
 
 .ref-content-list-one p {
