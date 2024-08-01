@@ -471,8 +471,8 @@ ul {
 		color: #fff;
 		font-family: 'Oswald', sans-serif;
 		font-size: 20px;
-		text-transform: uppercase;
-		padding-right: 15px;
+		text-transform: capitalize;
+		padding-left: 20px;
 	}
 
 		.serach-wrapper input::placeholder {
@@ -545,7 +545,7 @@ ul {
 		font-family: 'Oswald', sans-serif;
 		font-size: 18px;
 		text-transform: lowercase;
-		padding-left: 15px;
+		padding-right: 20px;
 	}
 
 		.serach-wrapper-urdu input::placeholder {
@@ -792,7 +792,7 @@ ul {
 	padding-top: 10px;
 }
 
-	.p22para-wrapper p {
+		 .p22para-wrapper p {
 		font-family: "jameel-noori-nastaleeq";
 		font-size: 24px;
 		font-weight: 600;
