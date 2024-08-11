@@ -6,7 +6,16 @@ body {
 	font-weight: 400;
 	background: #fff;
 	color: #333333;
+	
+	/* Disable text selection */
+	-webkit-user-select: none; /* For Chrome, Safari, and Opera */
+    -moz-user-select: none;    /* For Firefox */
+    -ms-user-select: none;     /* For Internet Explorer/Edge */
+    user-select: none;         /* Standard syntax */
+
 }
+
+
 
 .h2 {
 	color: #dcac6e;

@@ -19,8 +19,10 @@
 
 	// code for menu
 
-	$(".sm-menu-wrapper").click(function (){
-		$(".sm-menu .menu-wrapper").slideToggle();
+	$(document).ready(function() {
+		$(".sm-menu-wrapper").click(function() {
+			$(".sm-menu .menu-wrapper").slideToggle();
+		});
 	});
 
 	// code for search box
@@ -71,3 +73,24 @@ document.addEventListener('DOMContentLoaded', function () {
         engLink.classList.remove('active');
     });
 });
+
+
+
+
+// Disable right-click context menu
+document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+});
+
+// Disable the keyboard shortcut for copy (Ctrl+C or Command+C)
+document.addEventListener('keydown', function(e) {
+    if ((e.ctrlKey && e.key === 'c') || (e.metaKey && e.key === 'c')) {
+        e.preventDefault();
+    }
+});
+
+// Disable the copy event
+document.addEventListener('copy', function(e) {
+    e.preventDefault();
+});
+
