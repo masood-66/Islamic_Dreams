@@ -19,9 +19,9 @@
 
 	// code for menu
 
-	$(".sm-menu-wrapper").click(function (){
-		$(".sm-menu .menu-wrapper").slideToggle();
-	});
+	// $(".sm-menu-wrapper").click(function (){
+	// 	$(".sm-menu .menu-wrapper").slideToggle();
+	// });
 
 	// code for search box
 

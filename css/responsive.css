@@ -35,6 +35,7 @@ Medium Screen - Others
     max-width: 310px;
 }
 
+
 .banner-wrapper p {
     font-size: 28px;
 }
@@ -79,6 +80,7 @@ Medium Screen - Others
     right: 15px;
 }
 
+
 .p2para::after {
     width: 200px;
     height: 400px;
@@ -87,30 +89,13 @@ Medium Screen - Others
 .footer-wrapper p {
     display: flex;
 }
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (min-width: 252px) and (max-width: 850px) {
+    .banner-wrapper {
+        max-width: 210px;
+    }
 }
 
 /*
@@ -281,18 +266,14 @@ Small Screen - Mobile
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 }
+
+@media screen and (min-width: 400px) and (max-width: 980px) {	
+    .menu-wrapper{
+        display: none;
+    }
+}
+
 
 /*
 ====================================

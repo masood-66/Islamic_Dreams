@@ -514,6 +514,40 @@ ul {
 	padding: 35px 0 45px 0;
 	padding-bottom: 120px;
 }
+/*star symbol for english */
+.hed-img{
+	position: relative;
+	margin-left: 15px;
+}
+.hed-img::before{
+	content: "";
+	position: absolute;
+	height: 20px !important;
+	width: 20px !important;
+	left: -15px;
+	top: 18%;
+	/* border-radius: 1px solid; */
+	background: url(./img/gold.png);
+	background-size: 100% 100%;
+	
+}
+/*star symbol for urdu */
+.hed-img-u{
+	position: relative;
+	margin-right: 25px;
+}
+.hed-img-u::before{
+	content: "";
+	position: absolute;
+	height: 20px !important;
+	width: 20px !important;
+	right: -25px;
+	top: 40%;
+	/* border-radius: 1px solid; */
+	background: url(./img/gold.png);
+	background-size: 100% 100%;
+	
+}
 
 /*-- search area EN end --*/
 
@@ -591,6 +625,23 @@ ul {
 /*-- search area urdu end --*/
 
 /*-- ref area start --*/
+
+.p22para-wrapper .s-ayah{
+	    
+	/* display: inline-block; */
+    width: 17px;
+    height: 14px  !important;
+    background-image: url(img/obr.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-size: 8px;
+	padding: 0 5px;
+    margin-right: 1px;
+    text-align: center;
+    
+}
+
+
 .ref {
 	margin-top: 120px;
 }
@@ -599,9 +650,11 @@ ul {
 	font-family: "jameel-noori-nastaleeq";
 	font-size: 36px;
 	margin-bottom: 0;
-	color: #dcac6e;
+	/* color: #dcac6e; */
+	color: #B59061;
 	line-height: 1;
-	text-shadow: none;
+	/* text-shadow: none; */
+	text-shadow: -1px -2px var(--gray-dark);
 }
 
 .ref-content-list-one p {
