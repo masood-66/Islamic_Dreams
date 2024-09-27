@@ -17,10 +17,20 @@
 }
 
 
-@font-face {
+/* @font-face {
+  font-family: 'JameelNooriNastaleeqKasheeda';
+  src: 
+       url('../English/Symbols1_Ver02.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+/* @font-face {
   font-family: 'KFGQPC Arabic Symbols 01';
-  src: url('path-to-your-font.woff2') format('woff2');
-  unicode-range: U+0600-06FF; /* Arabic and Urdu Unicode Range */
-}
+  src: url('../English/Symbols1_Ver02.otf') format('woff2');
+  unicode-range: U+0600-06FF; 
+} */
+  
+  /* Arabic and Urdu Unicode Range */
 
 
