@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html>
-
-
   <head>
     <!-- Meta setup -->
     <meta charset="UTF-8" />
@@ -28,24 +26,23 @@
 
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="../css/responsive.css" />
-   	<style>
-        @import url('https://fonts.googleapis.com/css2?family=Parisienne&amp;family=Tangerine:wght@700&amp;display=swap');
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Parisienne&amp;family=Tangerine:wght@700&amp;display=swap");
     </style>
     <style>
-        @font-face {
-            font-family: 'KFGQPC Arabic Symbols 01';
-            src: url('../English/Symbols1_Ver02.otf');
-        }
+      @font-face {
+        font-family: "KFGQPC Arabic Symbols 01";
+        src: url("../English/Symbols1_Ver02.otf");
+      }
 
-        @font-face {
-            font-family: '_PDMS_Saleem_QuranFont';
-            src: url('_PDMS_Saleem_QuranFont%20Regular.ttf');
-        }
+      @font-face {
+        font-family: jameel-noori-nastaleeq;
+        src: url("../font/JameelNooriNastaleeq.ttf") format("woff"),
+          url("../font/JameelNooriNastaleeq.ttf") format("opentype"),
+          url("../font/JameelNooriNastaleeq.ttf") format("truetype");
+      }
 
       /* fonts for urdu */
-
-    
-
 
       .body {
         font-family: "jameel-noori-nastaleeq";
@@ -299,10 +296,14 @@
                 >
               </li>
               <li class="float-right">
-                <label for="filter" class="switch-urdu"  aria-label="Toggle Filter">
+                <label
+                  for="filter"
+                  class="switch-urdu"
+                  aria-label="Toggle Filter"
+                >
                   <input type="checkbox" id="filter" />
                   <a href="../English/index.html" class="eng-lang">ENG</a>
-                  <a href="Urdu.html" class=" active">اردو</a>
+                  <a href="Urdu.html" class="active">اردو</a>
                 </label>
               </li>
             </ul>
@@ -439,7 +440,6 @@
           <div class="container">
             <div class="ser-sug">
               <div class="serach-wrapper-urdu" style="width: 100%">
-                
                 <button
                   onclick="__doPostBack('ctl00$btnSearch','')"
                   id="btnSearch"
@@ -466,7 +466,22 @@
           <div class="p22para-wrapper" style="padding: 0px; padding-top: 18px">
             <p dir="rtl" class="text-justify">
               تعبیر خواب ایک مہتمم بلشان علم ہے، جس سے آئندہ کے حالات منکشف ہوتے
-              ہیں ۔ چنانچہ حضور سیّد کائنات سرکار دو عالم <span style="font-family:'KFGQPC Arabic Symbols 01';font-size: xx-large;"><span style="font-family:'KFGQPC Arabic Symbols 01';font-size: xx-large;font-weight: 100;">g</span></span> فرماتے ہیں:
+              ہیں ۔ چنانچہ حضور سیّد کائنات سرکار دو عالم
+              <span
+                style="
+                  font-family: 'KFGQPC Arabic Symbols 01';
+                  font-size: xx-large;
+                "
+                ><span
+                  style="
+                    font-family: 'KFGQPC Arabic Symbols 01';
+                    font-size: xx-large;
+                    font-weight: 100;
+                  "
+                  >g</span
+                ></span
+              >
+              فرماتے ہیں:
             </p>
             <h3
               style="
@@ -475,9 +490,8 @@
                 text-align: center;
               "
             >
-
               <span style="font-size: 40px">
-                لَمْ یَبْقَ مِنَ النُّبُوَّۃِ ِاِلاَّالْمُبَشِّرَاتُ قَالُوْ 
+                لَمْ یَبْقَ مِنَ النُّبُوَّۃِ ِاِلاَّالْمُبَشِّرَاتُ قَالُوْ
                 وَمَاالْمُبَشِّرَاتُ قَالَ الرُّؤْیَاالصَّالِحَتہُ
               </span>
               <br />
@@ -489,13 +503,12 @@
                   font-family: JameelNooriNastaleeqKasheeda;
                 "
               >
-              بشارتوں کے سوا نبوت کی کوئی چیز باقی نہیں رہی۔ صحابہ کرام ؓنے
-              دریافت کیا کہ بشارتوں سے کیا مراد ہے؟ آپ ﷺ نے فرمایا :  چھا
-              (سچا)خواب۔
-              <span style="color: #dcac6e"
-                ><strong> <small class="s-ayah">١</small> </strong>
-              </span>
-
+                بشارتوں کے سوا نبوت کی کوئی چیز باقی نہیں رہی۔ صحابہ کرام ؓنے
+                دریافت کیا کہ بشارتوں سے کیا مراد ہے؟ آپ ﷺ نے فرمایا : چھا
+                (سچا)خواب۔
+                <span style="color: #dcac6e"
+                  ><strong> <small class="s-ayah">١</small> </strong>
+                </span>
               </span>
             </h3>
             <p dir="rtl" class="text-justify">
@@ -503,14 +516,72 @@
               چیز باقی نہیں جس سےمستقبل کے حالات منکشف ہوجائیں۔ غرض جس طرح ابرو
               جود باران پر دلالت کرتا ہے، اسی طرح سچے خواب مستقبل کی طرف اشارہ
               کرتے ہیں۔سچے خواب کی اہمیت اس حقیقت سے بھی ظاہر ہے کہ وحی الٰہی
-              میں سب سے پہلی چیز جس سے حضور سرور دو جہان <span style="font-family:'KFGQPC Arabic Symbols 01';font-size: xx-large;"><span style="font-family:'KFGQPC Arabic Symbols 01';font-size: xx-large;font-weight: 100;">g</span></span> کو واسطہ پڑا وہ سچے
-              خواب تھے۔ ان ایام میں نبی اکرم <span style="font-family:'KFGQPC Arabic Symbols 01';font-size: xx-large;"><span style="font-family:'KFGQPC Arabic Symbols 01';font-size: xx-large;font-weight: 100;">g</span></span> جو خواب بھی دیکھتے اسکی تعبیر صبح
-              صادق کی مانند بالکل آشکار ہوتی تھی۔ ان حالات کے بعد آپ <span style="font-family:'KFGQPC Arabic Symbols 01';font-size: xx-large;"><span style="font-family:'KFGQPC Arabic Symbols 01';font-size: xx-large;font-weight: 100;">g</span></span> کا میلان
-              یاد ِخدا کے لئے گوشہ نشینی اختیار کرنے کی طرف ہوا اور آپ<span style="font-family:'KFGQPC Arabic Symbols 01';font-size: xx-large;"><span style="font-family:'KFGQPC Arabic Symbols 01';font-size: xx-large;font-weight: 100;">g</span></span> غار حرا
-              میں خلوت گزین ہوگئے۔
+              میں سب سے پہلی چیز جس سے حضور سرور دو جہان
+              <span
+                style="
+                  font-family: 'KFGQPC Arabic Symbols 01';
+                  font-size: xx-large;
+                "
+                ><span
+                  style="
+                    font-family: 'KFGQPC Arabic Symbols 01';
+                    font-size: xx-large;
+                    font-weight: 100;
+                  "
+                  >g</span
+                ></span
+              >
+              کو واسطہ پڑا وہ سچے خواب تھے۔ ان ایام میں نبی اکرم
+              <span
+                style="
+                  font-family: 'KFGQPC Arabic Symbols 01';
+                  font-size: xx-large;
+                "
+                ><span
+                  style="
+                    font-family: 'KFGQPC Arabic Symbols 01';
+                    font-size: xx-large;
+                    font-weight: 100;
+                  "
+                  >g</span
+                ></span
+              >
+              جو خواب بھی دیکھتے اسکی تعبیر صبح صادق کی مانند بالکل آشکار ہوتی
+              تھی۔ ان حالات کے بعد آپ
+              <span
+                style="
+                  font-family: 'KFGQPC Arabic Symbols 01';
+                  font-size: xx-large;
+                "
+                ><span
+                  style="
+                    font-family: 'KFGQPC Arabic Symbols 01';
+                    font-size: xx-large;
+                    font-weight: 100;
+                  "
+                  >g</span
+                ></span
+              >
+              کا میلان یاد ِخدا کے لئے گوشہ نشینی اختیار کرنے کی طرف ہوا اور
+              آپ<span
+                style="
+                  font-family: 'KFGQPC Arabic Symbols 01';
+                  font-size: xx-large;
+                "
+                ><span
+                  style="
+                    font-family: 'KFGQPC Arabic Symbols 01';
+                    font-size: xx-large;
+                    font-weight: 100;
+                  "
+                  >g</span
+                ></span
+              >
+              غار حرا میں خلوت گزین ہوگئے۔
               <span style="color: #dcac6e"
-              ><strong> <small class="s-ayah">٢</small> </strong>
-            </span>              سچے خواب کی فضیلت اس امر سے بھی ظاہر ہے کہ اسے جزء نبوت کہا گیا
+                ><strong> <small class="s-ayah">٢</small> </strong>
+              </span>
+              سچے خواب کی فضیلت اس امر سے بھی ظاہر ہے کہ اسے جزء نبوت کہا گیا
               ہے۔ چنانچہ حدیث مبارکہ میں ہے:
             </p>
 
@@ -533,8 +604,8 @@
                   font-family: JameelNooriNastaleeqKasheeda;
                 "
               >
-              رسول اللہ  نے فرمایا کہ سچا خواب نبوت کا چھیالیسواں حصہ ہے۔
-              <small class="s-ayah">٣</small>
+                رسول اللہ نے فرمایا کہ سچا خواب نبوت کا چھیالیسواں حصہ ہے۔
+                <small class="s-ayah">٣</small>
               </span>
             </h3>
 
@@ -575,7 +646,7 @@
           </div>
         </div>
       </div>
-      
+
       <!-- footer area end -->
 
       <!-- Main jQuery -->
