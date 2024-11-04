@@ -842,7 +842,7 @@ ul {
 }
 
 .mar{
-	margin-left: 80px;
+	margin-left: 60px;
    position: relative;
 }
 
@@ -851,6 +851,20 @@ ul {
 	position: absolute;
 	top: 13px;
 	left: -10px;
+    width: 5px;
+	height: 5px;	
+	background-color: black;
+}
+.mar-u{
+	margin-right: 60px;
+   position: relative;
+}
+
+.mar-u::before {
+	content: " ";
+	position: absolute;
+	top: 31px;
+	right: -15px;
     width: 5px;
 	height: 5px;	
 	background-color: black;
