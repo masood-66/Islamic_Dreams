@@ -139,7 +139,7 @@ Small Screen - Tablate
 }
 
 .footer-wrapper p small {
-    width: 50px;
+    /* width: 50px; */
 }
 
 .footer-wrapper p {
@@ -253,6 +253,7 @@ Small Screen - Mobile
 
 .footer-wrapper p small {
     width: 70px;
+    max-width: 20px;
 }
 
 .footer-wrapper p {
@@ -361,6 +362,7 @@ Xtra Small Screen - Small Mobile
 .footer-wrapper p small {
     margin-left: 0;
     width: 110px;
+    max-width: 20px;
 }
 
 .footer-wrapper p {

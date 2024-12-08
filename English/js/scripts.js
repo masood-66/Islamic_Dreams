@@ -20,9 +20,9 @@
 
 	// code for menu
 
-	// $(".sm-menu-wrapper").click(function (){
-	// 	$(".sm-menu .menu-wrapper").slideToggle();
-	// });
+	$(".sm-menu-wrapper").click(function (){
+		$(".sm-menu .menu-wrapper").slideToggle();
+	});
 
 	// code for search box
 
@@ -38,18 +38,19 @@
 	$(".menu-sm-pop ul li").click(function (){
 		$(this).children("ul").slideToggle();
 	})
-
-
-		
-
-				
-		
-		
-		
-		
-		
-		
-		
+	
 		
 	});
 })(jQuery);
+
+$(document).ready(function () {
+	$('body').bind('cut copy', function (e) {
+		e.preventDefault();
+	});
+});
+
+$(document).ready(function () {
+	$("body").on("contextmenu", function (e) {
+		return false;
+	});
+});

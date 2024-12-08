@@ -364,7 +364,8 @@ ul {
     --_label-padding: .3rem .7rem; /* padding around the labels */
     --_switch-easing: cubic-bezier(0.47, 1.64, 0.41, 0.8); /* easing on toggle switch */
   
-    width: fit-content;
+    width: 116px;
+	/* height: 40px; */
     display: flex;
     justify-content: flex-end;
     position: relative;
@@ -774,6 +775,7 @@ ul {
 	padding: 15px 0;
 	display: none;
 	padding-bottom: 0;
+	
 }
 
 /*-- sm-menu area end --*/

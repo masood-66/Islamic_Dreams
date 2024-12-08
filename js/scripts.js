@@ -57,26 +57,6 @@
 
 
 
-// document.addEventListener('DOMContentLoaded', function () {
-//     const engLink = document.querySelector('.eng-lang');
-//     const urduLink = document.querySelector('.urdu-lang');
-
-//     engLink.addEventListener('click', function (event) {
-//         event.preventDefault();
-//         engLink.classList.add('active');
-//         urduLink.classList.remove('active');
-//     });
-
-//     urduLink.addEventListener('click', function (event) {
-//         event.preventDefault();
-//         urduLink.classList.add('active');
-//         engLink.classList.remove('active');
-//     });
-// });
-
-
-
-
 // Disable right-click context menu
 document.addEventListener('contextmenu', function(e) {
     e.preventDefault();
